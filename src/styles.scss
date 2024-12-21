@@ -33,6 +33,7 @@ body {
     background-color: $background-dark;
 }
 
-.navbar-toggler {
-    // background-color: yellow;
+.tender-container {
+    @extend .container-md;
+    @extend .pt-3;
 }
