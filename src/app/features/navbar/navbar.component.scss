@@ -1,6 +1,24 @@
 @use './../../../styles.scss' as *;
 
-#navbar {
+.navbar {
     background-color: $primary-color;
     color: $font-color-dark;
+}
+
+.nav-link {
+    color: $font-color-dark;
+    transition: background-color 0.3s;
+
+    &:hover {
+        background-color: rgba($background-light, 0.5);
+        border-radius: 5px;
+    }
+}
+
+.navbar-toggler {
+    border: none;
+
+    &:focus {
+        box-shadow: none;
+    }
 }

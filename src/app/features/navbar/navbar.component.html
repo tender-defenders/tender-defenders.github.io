@@ -1,4 +1,24 @@
-<!-- Ignore all of the above, and let's make a nav bar which has Home, Terms of Use, Privacy Policy -->
-<button class="btn btn-primary" routerLink="">Home</button>
-<button class="btn btn-primary" routerLink="/terms-of-service">Terms of Service</button>
-<button class="btn btn-primary" routerLink="/privacy-policy">Privacy Policy</button>
+<nav class="navbar navbar-expand-md">
+    
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <a class="navbar-brand ms-md-3" routerLink="">
+        <img src="../../../assets/logo.png" width="30" height="30" class="align-self-center" alt="Tender Defenders Logo">
+    </a>
+  
+    <div class="collapse navbar-collapse" id="navbarToggler">
+      <ul class="navbar-nav ms-sm-3 mr-auto">
+        <li class="nav-item">
+          <a class="nav-link" routerLink="">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/terms-of-service">Terms of Service</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/privacy-policy">Privacy Policy</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
