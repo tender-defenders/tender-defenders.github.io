@@ -5,7 +5,8 @@
     color: $font-color-dark;
 }
 
-.nav-link {
+.nav-link,
+.navbar-brand {
     color: $font-color-dark;
     transition: background-color 0.3s;
 
