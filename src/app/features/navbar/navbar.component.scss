@@ -4,15 +4,3 @@
     background-color: $primary-color;
     color: $font-color-dark;
 }
-
-a {
-    padding: 5px;
-    border-radius: 5px;
-    text-decoration: none;
-}
-
-a:hover {
-    background-color: $primary-color-complement;
-    color: $font-color-dark;  
-    cursor: pointer;
-}

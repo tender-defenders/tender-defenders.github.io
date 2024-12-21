@@ -1,3 +1,6 @@
+/* Importing Bootstrap SCSS file. */
+@use 'bootstrap/scss/bootstrap' as *;
+
 // === Color variables === \\
 $primary-color: #FFD633;
 $primary-color-complement: #CCAB29;
@@ -22,11 +25,10 @@ $background-light-gray: #999999;
 
 html,
 body {
+    margin: 0;
     font-size: 16px;
     height: 100%;
     box-sizing: border-box;
     font-family: Roboto, "Helvetica Neue", sans-serif;
-
     background-color: $background-dark;
-    color: $font-color-light
 }
