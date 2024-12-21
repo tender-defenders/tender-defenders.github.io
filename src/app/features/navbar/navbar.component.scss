@@ -5,17 +5,6 @@
     color: $font-color-dark;
 }
 
-.nav-item,
-.navbar-brand {
-    color: $font-color-dark;
-    transition: background-color 0.3s;
-
-    &:hover {
-        background-color: rgba($background-light, 0.5);
-        border-radius: 5px;
-    }
-}
-
 .navbar-toggler {
     border: none;
 

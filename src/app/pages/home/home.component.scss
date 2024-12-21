@@ -1,20 +1,8 @@
 @use '../../../styles.scss' as *;
 
 .home {
-    h1 {
-        color: $primary-color;
-    }
-
-    p {
-        color: $font-color-light;
-    }
-
     ngb-alert {
         background-color: $background-light;
         color: $font-color-dark;
-
-        .btn:focus {
-            outline: none !important;
-        }
     }
 }

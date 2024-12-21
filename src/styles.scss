@@ -33,7 +33,28 @@ body {
     background-color: $background-dark;
 }
 
+h1 {
+    color: $primary-color;
+}
+
+p {
+    color: $font-color-light;
+}
+
 .tender-container {
     @extend .container-md;
     @extend .pt-3;
+}
+
+.tender-button {
+    background-color: $primary-color;
+    color: $font-color-dark;
+    transition: background-color 0.3s;
+    border: none;
+    border-radius: 5px;
+
+    &:hover {
+        background-color: $primary-color-complement;
+        border-radius: 5px;
+    }
 }
