@@ -58,3 +58,28 @@ p {
         border-radius: 5px;
     }
 }
+
+.legal-section {
+    padding-bottom: 30px;
+    
+    .last-updated {
+        color: $primary-color-complement;
+        font-style: italic;
+        margin-bottom: 20px;
+    }
+    
+    .section {
+        color: $font-color-light;
+        margin-bottom: 30px;
+    }
+    
+    a {
+        color: $primary-color;
+        text-decoration: none;
+        transition: color 0.3s;
+        
+        &:hover {
+            color: $primary-color-complement;
+        }
+    }
+}
