@@ -10,7 +10,7 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "lint": "ng lint",
-    "deploy": "ng deploy --base-href=/tender-defenders.github.io/"
+    "deploy": "ng deploy --cname=https://tenderdefenders.com"
   },
   "private": true,
   "dependencies": {
