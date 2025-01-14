@@ -1,0 +1,11 @@
+{
+  "applinks": {
+    "apps": [],
+    "details": [
+      {
+        "appID": "7RVRB8Q864.com.tenderdefenders",
+        "paths": ["/confirm-email", "/reset-password"]
+      }
+    ]
+  }
+}
