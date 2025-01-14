@@ -1,0 +1,14 @@
+[
+    {
+        "relation": [
+            "delegate_permission/common.handle_all_urls"
+        ],
+        "target": {
+            "namespace": "android_app",
+            "package_name": "com.tenderdefenders",
+            "sha256_cert_fingerprints": [
+                "EC:BD:42:23:F4:34:B1:D3:AA:BB:1C:A7:DB:97:B2:30:20:B3:B5:13:C0:F3:B2:D4:9D:78:18:DA:97:95:C5:13"
+            ]
+        }
+    }
+]
