@@ -23,13 +23,18 @@ $background-dark: #272727;
 $background-dark-gray: #3f3f3f;
 $background-light-gray: #999999;
 
+@font-face {
+    font-family: 'Tender';
+    src: url('assets/Jersey25-Regular.ttf') format('truetype');
+}
+
 html,
 body {
     margin: 0;
-    font-size: 16px;
+    font-size: 18px;
     height: 100%;
     box-sizing: border-box;
-    font-family: Roboto, "Helvetica Neue", sans-serif;
+    font-family: 'Tender';
     background-color: $background-dark;
 }
 
